@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dance Academy </title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <!-- outer start -->
+
+        <!-- navbar -->
+        <div class="row m-0">
+            <nav class="navbar navbar-expand-lg bg-secondary">
+                <div class="container-fluid ">
+                    <a class="navbar-brand text-white" href="#">
+                        <img src="img/logo (2).png" height="30px" width="50px" />
+                        DanceStudio
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="register.html">Register</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="login.html">login</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="media.html">Media</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="story.html" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    About Us
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="story.html">Our Story</a></li>
+                                    <li><a class="dropdown-item" href="mission.html">Our Mission</a></li>
+                                    <li><a class="dropdown-item" href="team.html">Our Team</a></li>
+                                    <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="feedback.html">Feedback</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="more.html" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                  Programs  
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="more.html">Power of Dance</a></li>
+                                    <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                    <li><a class="dropdown-item" href="center.html">Dance Center</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="careers.html">Careers</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+<!-- ----------nav---------- -->
+
+
+
+        <!-- img -->
+        <div class="img">
+            <img src="img/1 (14).jpg" height="500px" width="100%" />
+        </div>
+
+
+            <!-- register -->
+            <div class="row reg_img">
+                <p>Register Today<br>
+                    <span> Beginners to adults
+                        welcome!!</span></br>
+                    <span style="color: pink; font-size: 40px;">(310) 123 - 456</span>
+                </p>
+            </div>
+
+
+
+
+    <div class="box_reg ">
+        <h2 style="color:rgb(237, 234, 234)">LET'S CONNECT</h2>
+        <b>
+            <p style="color:rgb(129, 125, 125)">Sign up for updates!</p>
+            <p style="color:rgb(129, 125, 125)">Get news about programs and events from Dance Studio in your inbox.</p>
+        </b>
+        <span id="alert" style="display:none;"></span>
+
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8 ">
+                <form method="post" onsubmit="registerUser(event);" >
+                    First Name : 
+                    <input type="text" placeholder="Enter your first name" name="name" id="name"  class="formreg"/> <br>
+                    Last Name : <input type="text" placeholder="Enter your last name"   name="name" id="name" class="formreg" /><br>
+                    Email : <input type="email" placeholder="Enter your email "   name="email" id="email"  class="formreg"/> <br>
+                    Password : <input type="password" placeholder="Enter your password"  name="password" id="password" class="formreg"/><br><br>
+                 <p  style="color:rgb(96, 96, 96)">By submitting this form, you are consenting to receive marketing emails from: Dance Studio
+                  Uttap pradesh ,lucknow , India ,<span style="color: black;">
+                    http://www.DanceStudio.com. <br>
+                  </span>You can revoke your
+                    consent to receive emails at any time by using the SafeUnsubscribe® link, found at the bottom of every<br>
+                    email. Emails are serviced by Constant Contact.</p>
+        
+                    <input type="reset" value="Clear"  class="btn" style="background-color:rgb(230, 53, 53)">
+                    <input type="submit" value="Sign Up" class="btn" style="background-color:rgb(230, 53, 53)">
+                </form>    
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+    </div>
+
+
+        <script type="text/javascript" src="./js/config.js"></script>
+        <script type="text/javascript" src="./js/function.js"></script>
+        <script type="text/javascript" src="./js/session.js"></script>
+        <script type="text/javascript" src="./js/state.js"></script>
+        <script type="text/javascript" src="./js/crud.js"></script>
+
+
+        <!-- footer -->
+
+        <div class="row m-0">
+            <div class="col-sm-12 text-center text-white py-3 w-100 pt-4"
+                style="background-color: gray; height: 100px;">
+                <a>
+                    <img src="img/logo (2).png" height="30px" width="50px" />
+                    <span style="color:pink">DanceStudio</span>
+                </a><br>
+                Copyright &copy www.myDanceStudio.com. All rights reserved!
+            </div>
+        </div>
+
+
+        <!-- outer end -->
+    </div>
+
+</body>
+
+</html>

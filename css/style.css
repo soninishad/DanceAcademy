@@ -1,0 +1,791 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* -----------------------Desktop------------------------ */
+@media(min-width:1300px) {
+
+    /* ----------------------WELCOME---------------- */
+
+
+
+    .welcome {
+        background-color: pink;
+        text-align: center;
+        font-family: Monotype Corsiva;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .btn {
+        background-color: rgb(129, 125, 125);
+        border: 1px solid gray;
+    }
+
+
+    /* -------------------ABOUT OUR STADIO------------------ */
+
+
+    .about_box {
+        border: 2px solid pink;
+        float: right;
+        margin: auto;
+        margin-left: -221px;
+        height: 350px;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+
+
+
+    /* -----------------------------Register--------------------------- */
+
+    .reg_img {
+        background-image: url(../img/1\ \(18\).jpg);
+        margin: 0px;
+        background-size: cover;
+        height: 300px;
+        width: 100%;
+        opacity: 0.9;
+    }
+
+    .reg_img p {
+        color: aliceblue;
+        font-size: 30px;
+        text-align: center;
+        padding: 60px;
+
+    }
+
+
+    .reg_img span {
+        font-size: 18px;
+        font-family: Monotype Corsiva;
+    }
+
+
+    /* -------------------------------------White----------------- */
+    .white {
+        height: 250px;
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .white p {
+        text-align: center;
+    }
+
+    .white_btn {
+        color: rgb(242, 155, 170);
+        padding-left: 200px;
+    }
+
+
+    /* ------------------------------------------------Home page end------------------------------ */
+    /* ------------------------------------------------------------------------------------------- */
+
+
+    /*---------------------------------------------Registration page start-----------------------------------  */
+
+    .box_reg {
+        background-color: rgb(242, 155, 170);
+        /* align-items: center; */
+        text-align: center;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .formreg {
+        font-size: 16px;
+        /* width: auto; */
+        /* height: auto; */
+        margin: 10px;
+        border-radius: 10px;
+        width: 400px;
+        height: 36px;
+    }
+
+
+
+    /* ----------------------------------------------------------More ------------------------------------------------------- */
+    /* ----------------------------------------------------------Power of Dance ------------------------------------------------ */
+    .dance_heading {
+        color: rgb(10, 10, 10);
+        padding-left: 100px;
+    }
+
+    .dance_images {
+
+        border: 10px solid rgb(255, 255, 255);
+        height: 250px;
+        /* height: auto; */
+        width: auto;
+        margin-bottom: 30px
+    }
+
+
+    /* ------------------------------------------Blog-------------------------------- */
+    /* ----------------------------------------------------------------------------- */
+
+    .blog_img {
+
+        border: 10px solid rgb(255, 255, 255);
+        height: 350px;
+        width: 850px;
+        margin-left: 80px;
+    }
+
+    .content_blog {
+        margin-left: 80px;
+        font-size: 22px;
+    }
+
+
+    .blog2_img {
+        border: 10px solid rgb(255, 255, 255);
+        height: 350px;
+    }
+
+}
+
+
+
+
+
+
+
+/* -------------------LAPTOP-------------------------- */
+
+@media(min-width:1024px) and (max-width:1300px) {
+
+    /* ----------------------WELCOME---------------- */
+
+
+
+    .welcome {
+        background-color: pink;
+        text-align: center;
+        font-family: Monotype Corsiva;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .btn {
+        background-color: rgb(129, 125, 125);
+        border: 1px solid gray;
+    }
+
+
+    /* -------------------ABOUT OUR STADIO------------------ */
+
+
+    .about_box {
+        border: 2px solid pink;
+        float: right;
+        margin: auto;
+        margin-left: -221px;
+        height: 350px;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+
+
+
+    /* -----------------------------Register--------------------------- */
+
+    .reg_img {
+        background-image: url(../img/1\ \(18\).jpg);
+        margin: 0px;
+        background-size: cover;
+        height: 300px;
+        width: 100%;
+        opacity: 0.9;
+    }
+
+    .reg_img p {
+        color: aliceblue;
+        font-size: 30px;
+        text-align: center;
+        padding: 60px;
+
+    }
+
+
+    .reg_img span {
+        font-size: 18px;
+        font-family: Monotype Corsiva;
+    }
+
+
+    /* -------------------------------------White----------------- */
+    .white {
+        height: 250px;
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .white p {
+        text-align: center;
+    }
+
+    .white_btn {
+        color: rgb(242, 155, 170);
+        padding-left: 200px;
+    }
+
+
+    /* ------------------------------------------------Home page end------------------------------ */
+    /* ------------------------------------------------------------------------------------------- */
+
+
+    /*---------------------------------------------Registration page start-----------------------------------  */
+
+    .box_reg {
+        background-color: rgb(242, 155, 170);
+        /* align-items: center; */
+        text-align: center;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .formreg {
+        font-size: 16px;
+        /* width: auto; */
+        /* height: auto; */
+        margin: 10px;
+        border-radius: 10px;
+        width: 400px;
+        height: 36px;
+    }
+
+
+    /* ----------------------------------------------------------More ------------------------------------------------------- */
+    /* ------------------------------------------------------------------------------------------------------------------- */
+    .dance_heading {
+        color: rgb(10, 10, 10);
+        padding-left: 100px;
+    }
+
+    .dance_images {
+
+        border: 10px solid rgb(255, 255, 255);
+        height: 250px;
+        /* height: auto; */
+        width: auto;
+        margin-bottom: 30px
+    }
+
+    .para {
+        margin-left: 120px;
+    }
+
+
+    /* ------------------------------------------Blog-------------------------------- */
+    /* ----------------------------------------------------------------------------- */
+
+    .blog_img {
+
+        border: 10px solid rgb(255, 255, 255);
+        height: 350px;
+        width: auto;
+        margin-left: 80px;
+    }
+
+    .content_blog {
+        margin-left: 80px;
+        width: auto;
+        font-size: 18px;
+    }
+
+    .blog2_img {
+        border: 10px solid rgb(255, 255, 255);
+        height: 350px;
+        width: auto;
+    }
+
+}
+
+
+
+
+
+
+/* -----------------------------------Landscape  Tablet----------------------- */
+
+@media(min-width:768px) and (max-width:1024px) {
+
+    /* ----------------------WELCOME---------------- */
+
+    .welcome {
+        background-color: pink;
+        text-align: center;
+        font-family: Monotype Corsiva;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .btn {
+        background-color: rgb(129, 125, 125);
+        border: 1px solid gray;
+    }
+
+
+    /* -------------------ABOUT OUR STADIO------------------ */
+
+
+    .about_box {
+        border: 2px solid pink;
+        float: right;
+        margin: auto;
+        margin-left: -25px;
+        /* height: 350px; */
+        height: 375px;
+        text-align: center;
+        padding: 7px;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+
+
+
+    /* -----------------------------Register--------------------------- */
+
+    .reg_img {
+        background-image: url(../img/1\ \(18\).jpg);
+        margin: 0px;
+        background-size: cover;
+        height: 300px;
+        width: 100%;
+        opacity: 0.9;
+    }
+
+    .reg_img p {
+        color: aliceblue;
+        font-size: 30px;
+        text-align: center;
+        padding: 60px;
+
+    }
+
+
+    .reg_img span {
+        font-size: 18px;
+        font-family: Monotype Corsiva;
+    }
+
+
+    /* -------------------------------------White----------------- */
+    .white {
+        height: 250px;
+        width: 100%;
+        padding-top: 50px;
+        /* background-color: aqua; */
+        /* margin: 0px; */
+    }
+
+    .white p {
+        text-align: center;
+    }
+
+    .white_btn {
+        color: rgb(242, 155, 170);
+        padding-left: 200px;
+    }
+
+    /* ------------------------------------------------Home page end------------------------------ */
+    /* ------------------------------------------------------------------------------------------- */
+
+
+    /*---------------------------------------------Registration page start-----------------------------------  */
+
+    .box_reg {
+        background-color: rgb(242, 155, 170);
+        /* align-items: center; */
+        text-align: center;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .formreg {
+        font-size: 16px;
+        margin: 10px;
+        border-radius: 10px;
+        width: 400px;
+        height: 36px;
+    }
+
+
+    /* ----------------------------------------------------------More ------------------------------------------------------- */
+    /* ------------------------------------------------------------------------------------------------------------------- */
+    .dance_heading {
+        color: rgb(10, 10, 10);
+        padding-left: 20px;
+    }
+
+    .dance_images {
+
+        border: 10px solid rgb(255, 255, 255);
+        height: 250px;
+        width: auto;
+        margin-bottom: 30px
+    }
+
+    .para {
+        margin-left: 140px;
+    }
+
+
+
+
+    /* ------------------------------------------Blog-------------------------------- */
+    /* ----------------------------------------------------------------------------- */
+
+    .blog_img {
+
+        border: 10px solid rgb(255, 255, 255);
+        height: 350px;
+        width: auto;
+    }
+
+    .content_blog {
+        font-size: 18px;
+    }
+
+    .blog2_img {
+        border: 10px solid rgb(255, 255, 255);
+        height: 350px;
+    }
+
+}
+
+
+
+
+
+
+/* -------------------------Tablet--------------------------- */
+
+@media(min-width:500px) and (max-width:768px) {
+
+    /* ----------------------WELCOME---------------- */
+
+    .welcome {
+        background-color: pink;
+        text-align: center;
+        font-family: Monotype Corsiva;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .btn {
+        background-color: rgb(129, 125, 125);
+        border: 1px solid gray;
+    }
+
+
+    /* -------------------ABOUT OUR STADIO------------------ */
+
+    .about_img {
+        width: 400px;
+    }
+
+    .about_box {
+        border: 2px solid pink;
+        float: right;
+        margin: auto;
+        width: 50%;
+        height: 502px;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+
+
+
+    /* -----------------------------Register--------------------------- */
+
+    .reg_img {
+        background-image: url(../img/1\ \(18\).jpg);
+        margin: 0px;
+        background-size: cover;
+        height: 300px;
+        width: 100%;
+        opacity: 0.9;
+    }
+
+    .reg_img p {
+        color: aliceblue;
+        font-size: 30px;
+        text-align: center;
+        padding: 60px;
+
+    }
+
+
+    .reg_img span {
+        font-size: 18px;
+        font-family: Monotype Corsiva;
+    }
+
+
+    /* -------------------------------------White----------------- */
+    .white {
+        height: 250px;
+        width: 100%;
+        padding-top: 25px;
+    }
+
+    .white p {
+        text-align: center;
+    }
+
+    .white_btn {
+        color: rgb(242, 155, 170);
+        padding-left: 200px;
+    }
+
+    /* ------------------------------------------------Home page end------------------------------ */
+    /* ------------------------------------------------------------------------------------------- */
+
+
+    /*---------------------------------------------Registration page start-----------------------------------  */
+
+    .box_reg {
+        background-color: rgb(242, 155, 170);
+        text-align: center;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .formreg {
+        font-size: 16px;
+        margin: 10px;
+        border-radius: 10px;
+        width: 400px;
+        height: 36px;
+    }
+
+
+
+    /* ----------------------------------------------------------More ------------------------------------------------------- */
+    /* ------------------------------------------------------------------------------------------------------------------- */
+    .dance_heading {
+        color: rgb(10, 10, 10);
+        padding-left: 20px;
+    }
+
+    .dance_images {
+
+        border: 10px solid rgb(255, 255, 255);
+        height: 250px;
+        width: auto;
+        margin-bottom: 30px
+    }
+
+    .para {
+        margin-left: 130px;
+        width: 400px;
+        margin: 0px;
+    }
+
+
+    /* ------------------------------------------Blog-------------------------------- */
+    /* ----------------------------------------------------------------------------- */
+
+    .blog_img {
+
+        border: 10px solid rgb(255, 255, 255);
+        height: 350px;
+        width: auto;
+    }
+
+    .content_blog {
+        margin-left: 25px;
+        font-size: 22px;
+    }
+
+    .blog2_img {
+        border: 10px solid rgb(255, 255, 255);
+        height: 350px;
+        /* margin-left: 25px; */
+    }
+
+}
+
+
+
+
+
+/* ---------------------MOBILE--------------------- */
+
+
+
+@media(min-width:05px) and (max-width:500px) {
+
+    /* ----------------------WELCOME---------------- */
+
+    .welcome {
+        background-color: pink;
+        text-align: center;
+        font-family: Monotype Corsiva;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .btn {
+        background-color: rgb(129, 125, 125);
+        border: 1px solid gray;
+    }
+
+
+    /* -------------------ABOUT OUR STADIO------------------ */
+
+    .about_img {
+        /* width: 330px; */
+        width: 257px;
+        background-size: 100%;
+        overflow: hidden;
+    }
+
+    .about_box {
+        border: 2px solid pink;
+        float: right;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 75%;
+        padding: -40px;
+        /* height: 485px; */
+        height: auto;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+
+
+
+    /* -----------------------------Register--------------------------- */
+
+    .reg_img {
+        background-image: url(../img/1\ \(18\).jpg);
+        margin: 0px;
+        background-size: cover;
+        height: 300px;
+        width: 100%;
+        opacity: 0.9;
+    }
+
+    .reg_img p {
+        color: aliceblue;
+        font-size: 30px;
+        text-align: center;
+        padding: 20px;
+    }
+
+
+    .reg_img span {
+        font-size: 18px;
+        font-family: Monotype Corsiva;
+    }
+
+
+    /* -------------------------------------White----------------- */
+    .white {
+        height: 300px;
+        width: 100%;
+        padding-top: 12px;
+    }
+
+    .white p {
+        text-align: center;
+    }
+
+    .white_btn {
+        color: rgb(242, 155, 170);
+        padding-left: 200px;
+    }
+
+    /* ------------------------------------------------Home page end------------------------------ */
+    /* ------------------------------------------------------------------------------------------- */
+
+
+    /*---------------------------------------------Registration page start-----------------------------------  */
+
+    .box_reg {
+        background-color: rgb(242, 155, 170);
+        text-align: center;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .formreg {
+        font-size: 16px;
+        margin: 10px;
+        border-radius: 10px;
+        width: 200px;
+        height: 36px;
+    }
+
+
+
+    /* ----------------------------------------------------------More ------------------------------------------------------- */
+    /* ------------------------------------------------------------------------------------------------------------------- */
+    .dance_heading {
+        color: rgb(10, 10, 10);
+    }
+
+    .dance_images {
+
+        border: 10px solid rgb(255, 255, 255);
+        height: 250px;
+        width: 200px;
+        margin-bottom: 30px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+
+    /* ------------------------------------------Blog-------------------------------- */
+    /* ----------------------------------------------------------------------------- */
+
+    .blog_img {
+        /* border: 10px solid rgb(255, 255, 255); */
+        height: 350px;
+        width: auto;
+        padding: 46px;
+    }
+
+    .content_blog {
+        font-size: 18px;
+    }
+
+    .blog2_img {
+        border: 10px solid rgb(255, 255, 255);
+        height: 350px;
+    }
+
+}
